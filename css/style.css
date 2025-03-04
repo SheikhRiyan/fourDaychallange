@@ -1,0 +1,86 @@
+/* all css comment start  */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all css comment end  */
+/* menupart starts  */
+.menuPart{
+    background-color: rgba(158, 0, 0, 0.8);
+}
+.menu{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: black;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0 15px;
+    line-height: 70px;
+    transition: .4s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu ul li a:hover{
+    color: blue;
+}
+.green{
+    background: #006A4E;
+    position: absolute;
+    top: 5px;
+    height: 60px;
+    width: 100px;
+    border-radius: 10%;
+}
+.red{
+    background: #F42A41;
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+/* menupart end  */
+/* .banner part starts */
+.banner{
+    background:url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.577);
+    padding: 300px 0px;
+}
+.overlay h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.714);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+/* .banner part end */
+/* paragraph start  */
+h2 u{
+    color: brown;
+    transition: .4s;
+}
+h2 u:hover{
+    color: rebeccapurple
+}
+/* paragraph end  */
